@@ -1,0 +1,116 @@
+#%RAML 1.0
+title: pfj-sales-pathway-s
+version: v1
+baseUri: https://api.cp.pilotflyingj.com/pfj-sales-pathway-s/api/v1
+documentation:
+  - title: PFJ pfj-sales-pathway-s API
+    content: This API acts as a template for any new PFJ APIs
+
+traits:
+  callerId: !include exchange_modules/25c32dcb-fe8d-4c0f-9c58-beae720cbeaa/trait-caller-id/1.0.1/trait-caller-id.raml
+  errorResponse: !include exchange_modules/25c32dcb-fe8d-4c0f-9c58-beae720cbeaa/trait-errorresponse/1.0.2/trait-errorresponse.raml
+  
+securitySchemes: 
+  clientIdEnforcement: !include exchange_modules/25c32dcb-fe8d-4c0f-9c58-beae720cbeaa/security-client-id-enforcement/1.0.0/security-client-id-enforcement.raml
+
+/truckstop:
+  get: 
+   securedBy: [clientIdEnforcement]
+   is: [callerId,errorResponse]
+   description: This will return all Truckstops information.
+   responses: 
+     200:
+       body: 
+         application/json: 
+           type: !include /datatypes/datatype-truckstop.raml
+           example: !include /examples/truckStop.json
+          
+           
+  /costplus:
+    /priceload:
+       get: 
+        securedBy: [clientIdEnforcement]
+        is: [callerId, errorResponse]
+        description: This will return Ascend Price Load Data Status.
+        responses: 
+          200:
+            body: 
+              application/json:
+                example: !include examples/priceLoad.json
+                
+    /{standardAccountId}:
+      get: 
+       securedBy: [clientIdEnforcement]
+       queryParameters: 
+           startDate:
+            displayName: Start date
+            description: Start date for CostPlus data
+            required: false
+           endDate:
+            displayName: End date
+            description: End date for CostPlus data
+            required: false
+       is: [callerId,errorResponse]
+       description: This will return Truckstops CostPlus information based on standardAccountId.
+       responses: 
+         200:
+           body: 
+             application/json: 
+               example: !include examples/truckStopCostPlus.json
+          
+  /tax:         
+     get: 
+      securedBy: [clientIdEnforcement]
+      is: [callerId,errorResponse]
+      description: This will return all Truckstops tax information.
+      responses: 
+        200:
+          body: 
+            application/json: 
+              example: !include examples/truckStopTax.json
+  /retailfee:
+   /{standardAccountId}:
+    uriParameters:
+      standardAccountId:
+       required: true
+       type: string
+    get: 
+     securedBy: [clientIdEnforcement]
+     is: [callerId,errorResponse]
+     description: This will return Truckstops retail fee information based on standardAccountId.
+     responses: 
+       200:
+         body: 
+           application/json: 
+             example: !include examples/truckStopRetail.json
+             
+  /gallons:
+   /{standardAccountId}:
+    uriParameters:
+      standardAccountId:
+       required: true
+       type: string
+    get: 
+     securedBy: [clientIdEnforcement]
+     is: [callerId,errorResponse]
+     description: This will return Truckstops Gallons information based on standardAccountId.
+     responses: 
+       200:
+         body: 
+           application/json: 
+             example: !include examples/truckStopGallons.json
+
+
+/heartbeat:
+  get:
+    is: [callerId, errorResponse]
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                name: "pfj-sales-pathway-s",
+                description: "PFJ pfj-sales-pathway-s API heartbeat check",
+                version: "v1"
+              }

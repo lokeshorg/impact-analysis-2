@@ -1,0 +1,236 @@
+{
+	"response": [
+
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1621",
+				"subjectTotaxId": [],
+				"taxRate": "0.16",
+				"taxDescription": "CA Excise tax-Diesel",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "State"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "14313",
+				"subjectTotaxId": [],
+				"taxRate": "0.0151",
+				"taxDescription": "CA Implementation Fee - Diesel",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "Other"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1022",
+				"subjectTotaxId": [],
+				"taxRate": "0",
+				"taxDescription": "CA Spill Fee - Diesel",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "Misc tax"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1023",
+				"subjectTotaxId": [],
+				"taxRate": "0.02",
+				"taxDescription": "CA UST-Diesel-not139/154/168/282/343/365",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "Misc tax"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1032",
+				"subjectTotaxId": [],
+				"taxRate": "0.243",
+				"taxDescription": "Fed Excise tax-Diesel",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "Federal"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1601",
+				"subjectTotaxId": [],
+				"taxRate": "0.001",
+				"taxDescription": "Fed LUST",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "Federal"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1602",
+				"subjectTotaxId": [],
+				"taxRate": "0.002143",
+				"taxDescription": "Fed Oil Spill",
+				"calculationMethod": "U",
+				"taxType": "Excise",
+				"taxCode": "Other"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "2346",
+				"subjectTotaxId": [{
+						"taxId": "1022",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1023",
+						"taxRate": "0.02"
+					},
+					{
+						"taxId": "1032",
+						"taxRate": "0.243"
+					},
+					{
+						"taxId": "1601",
+						"taxRate": "0.001"
+					},
+					{
+						"taxId": "1602",
+						"taxRate": "0.002143"
+					},
+					{
+						"taxId": "14303",
+						"taxRate": "0"
+					}
+				],
+				"taxRate": "0.0125",
+				"taxDescription": "CA Siskiyou County Sales tax",
+				"calculationMethod": "P",
+				"taxType": "Sales",
+				"taxCode": "Sales"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "1603",
+				"subjectTotaxId": [{
+						"taxId": "1023",
+						"taxRate": "0.02"
+					},
+					{
+						"taxId": "1032",
+						"taxRate": "0.243"
+					},
+					{
+						"taxId": "1601",
+						"taxRate": "0.001"
+					},
+					{
+						"taxId": "1602",
+						"taxRate": "0.002143"
+					},
+					{
+						"taxId": "14303",
+						"taxRate": "0"
+					}
+				],
+				"taxRate": "0.06",
+				"taxDescription": "CA Sales tax",
+				"calculationMethod": "P",
+				"taxType": "Sales",
+				"taxCode": "Sales"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "2605",
+				"subjectTotaxId": [{
+						"taxId": "1022",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1921",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1621",
+						"taxRate": "0.16"
+					},
+					{
+						"taxId": "1112",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1123",
+						"taxRate": "0"
+					}
+				],
+				"taxRate": "0.0175",
+				"taxDescription": "CA Sales tax - Diesel Clear Addl",
+				"calculationMethod": "P",
+				"taxType": "Sales",
+				"taxCode": "Sales"
+			}
+		},
+		{
+			"truckstopId": "137",
+			"truckstopDescription": "137 Weed CA",
+			"tax": {
+				"taxId": "14600",
+				"subjectTotaxId": [{
+						"taxId": "1022",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1023",
+						"taxRate": "0.02"
+					},
+					{
+						"taxId": "1032",
+						"taxRate": "0.243"
+					},
+					{
+						"taxId": "1111",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1112",
+						"taxRate": "0"
+					},
+					{
+						"taxId": "1123",
+						"taxRate": "0"
+					}
+				],
+				"taxRate": "0.0025",
+				"taxDescription": "CA Weed Sales tax",
+				"calculationMethod": "P",
+				"taxType": "Sales",
+				"taxCode": "Sales"
+			}
+		}
+	]
+}

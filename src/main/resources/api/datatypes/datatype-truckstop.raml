@@ -1,0 +1,70 @@
+#%RAML 1.0 DataType
+type: array
+items:
+  type: object
+  properties:
+    truckStopName:
+      type: string
+      required: true
+      description: Truck Stop Name
+      maxLength: 50
+    truckStopID: 
+      type: string
+      required: true
+      description: Truck Stop Identifier
+      maxLength: 50
+    address:
+      type: string
+      required: true
+      description: Address
+      maxLength: 50
+    city:
+      type: string
+      required: true
+      description: City
+      maxLength: 50
+    country:
+      type: string
+      required: true
+      description: Country
+      maxLength: 50
+    state: 
+      type: string
+      required: true
+      description: State name
+      maxLength: 50
+    zip: 
+      type: string
+      required: true
+      description: Zip Code
+      maxLength: 50
+    chain: 
+      type: string
+      required: true
+      description: Chain
+      maxLength: 50
+    primaryPhone: 
+      type: string
+      required: false
+      description: Phone number
+      maxLength: 50
+    primaryFax:
+      type: string
+      required: false
+      description: Fax number
+      maxLength: 50
+    opisCity:
+      type: string
+      required: true
+      description: OPIS city
+      maxLength: 50
+    opisState:
+      type: string
+      required: true
+      description: OPIS state
+      maxLength: 50
+    freightRate:
+      type: number
+      required: true
+      description: freight
+

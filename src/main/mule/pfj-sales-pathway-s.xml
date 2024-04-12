@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns:db="http://www.mulesoft.org/schema/mule/db"
+	xmlns:compression="http://www.mulesoft.org/schema/mule/compression"
+	xmlns:os="http://www.mulesoft.org/schema/mule/os"
+	xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns:api-gateway="http://www.mulesoft.org/schema/mule/api-gateway"
+	xmlns:sockets="http://www.mulesoft.org/schema/mule/sockets"
+	xmlns:tls="http://www.mulesoft.org/schema/mule/tls"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+		http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd
+		http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/current/mule-tls.xsd
+		http://www.mulesoft.org/schema/mule/sockets http://www.mulesoft.org/schema/mule/sockets/current/mule-sockets.xsd
+		http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/mule/api-gateway/current/mule-api-gateway.xsd
+		http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+		http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd
+http://www.mulesoft.org/schema/mule/compression http://www.mulesoft.org/schema/mule/compression/current/mule-compression.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
+
+	<flow name="pfj-sales-pathway-s-main">
+		<http:listener config-ref="HTTP_Listener_config" path="${https.listener.path}" responseStreamingMode="NEVER">
+			<http:response statusCode="#[vars.statusCode default (attributes.statusCode default 200)]">
+				<http:headers ><![CDATA[#[output application/java
+---
+{}]]]></http:headers>
+			</http:response>
+			<http:error-response statusCode="#[vars.statusCode default (attributes.statusCode default 500)]">
+				<http:body><![CDATA[#[payload]]]></http:body>
+			</http:error-response>
+		</http:listener>
+		<set-variable value="#[%dw 2.0
+&#10;output application/java
+&#10;var path = (attributes.requestPath splitBy((&quot;^&quot; ++ p('https.listener.path')) as Regex))[1]
+&#10;---
+&#10;{
+&#10;	method: attributes.method,
+&#10;	path: path,
+&#10;	caller_id: if (isEmpty(attributes.headers.'X-Caller-Id')) uuid() else attributes.headers.'X-Caller-Id'
+&#10;}]" doc:name="Incoming Request" doc:id="31176fbf-79fa-47af-aeea-60010b94a307" variableName="incoming" />
+		<logger level="INFO" doc:name="Incoming Request" doc:id="ef6fa69f-265f-47b2-8767-d5a263ef25b9" message="Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path]" />
+		<apikit:router config-ref="pfj-sales-pathway-s-config" />
+		<logger level="INFO" doc:name="Response" doc:id="eed15095-e6e5-48e1-99d7-f8d2c1fb76fd" message="Response - (#[vars.incoming.caller_id]) #[vars.incoming.method] /#[vars.incoming.path] - status #[vars.statusCode default (attributes.statusCode default 200)]" />
+		<error-handler>
+			<on-error-propagate enableNotifications="false" logException="false" doc:name="HTTP Error Status Code Received" doc:id="9ccbb52a-79e5-4be0-9cee-c7febbcfe9a6" when="#[if(error.errorType.identifier == 'COMPOSITE_ROUTING') sizeOf(error.errors..StatusCode default []) &gt; 0 else sizeOf(error..StatusCode default []) &gt; 0]">
+				<set-variable value="#[(error..StatusCode)[0]]" doc:name="Status Code" doc:id="23948382-e383-4eb2-9b56-165e04038213" variableName="statusCode"/>
+				<ee:transform doc:name="Error Message Responses.dwl" doc:id="062eba09-6c3f-4a3a-b0bd-271788d9beaf">
+					<ee:message>
+						<ee:set-payload resource="modules/errorMessageResponses.dwl"/>
+					</ee:message>
+					<ee:variables></ee:variables>
+				</ee:transform>
+				<logger level="ERROR" doc:name="Logger" doc:id="1a846b46-b5a5-4076-8008-394b7b828927" message="Error - (#[vars.incoming.caller_id]) status code #[vars.statusCode]"/>
+			</on-error-propagate>
+			<on-error-propagate enableNotifications="false" logException="true" doc:name="Internal and Unhandled Errors" doc:id="23888e72-7466-43d5-ab66-5f79cfef6cb1">
+				<set-variable value="#[%dw 2.0
+		output application/java
+		/* This is for handling errors coming out of Scatter-Gather. */
+		var namespace = if (error.errorType.identifier == 'COMPOSITE_ROUTING') error.errors.errorType.namespace[0] else error.errorType.namespace
+		var identifier = if (error.errorType.identifier == 'COMPOSITE_ROUTING') error.errors.errorType.identifier[0] else error.errorType.identifier
+		---
+		if (namespace == 'INPUT' or namespace == 'VALIDATION' or identifier == 'BAD_REQUEST') 400
+		else if (namespace == 'AUTH' and identifier == 'UNAUTHORIZED') 401
+		else if (namespace == 'AUTH' and identifier == 'FORBIDDEN') 403
+		else if (identifier == 'NOT_FOUND') 404
+		else if (identifier == 'METHOD_NOT_ALLOWED') 405
+		else if (identifier == 'NOT_ACCEPTABLE') 406
+		else if (identifier == 'TIMEOUT') 408
+		else if (identifier == 'UNSUPPORTED_MEDIA_TYPE') 415
+		else if (identifier == 'TOO_MANY_REQUESTS') 429
+		else if (identifier == 'NOT_IMPLEMENTED') 501
+		else 500]" doc:name="Status Code" doc:id="96cd8365-e925-4194-8541-08c69aac3b83" variableName="statusCode"/>
+				<ee:transform doc:name="Error Message Responses.dwl" doc:id="8550bd94-f486-40aa-afaf-2c8fca889c9a">
+					<ee:message>
+						<ee:set-payload resource="modules/errorMessageResponses.dwl"/>
+					</ee:message>
+					<ee:variables></ee:variables>
+				</ee:transform>
+				<logger level="ERROR" doc:name="Logger" doc:id="626742a2-c9a1-45da-9767-f936f94291a2" message="Error - (#[vars.incoming.caller_id]) status code #[vars.statusCode]"/>
+			</on-error-propagate>
+		</error-handler>
+	</flow>
+
+    <flow name="get:\truckstop\costplus\priceload:pfj-sales-pathway-s-config">
+		<db:select doc:name="Ascend" doc:id="2210c0ac-a2bb-4c3e-8c7a-7564dade9565" config-ref="Database_Config_ASCEND">
+			<db:sql ><![CDATA[SELECT  Ascend.pilot.IsAscendPriceLoadFinished() as ascendpolling;]]></db:sql>
+		</db:select>
+		<ee:transform>
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+payload[0].ascendpolling
+]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+    </flow>
+    <flow name="get:\truckstop\tax:pfj-sales-pathway-s-config">
+		<set-variable value="#['truckStopTax']" doc:name="apiResource" doc:id="8b034b59-3879-41b0-8c52-309141ad6cbe" variableName="apiResource"/>
+		<db:select doc:name="Ascend" doc:id="0ef6498e-4086-49d5-b748-c5125d70b32a" config-ref="Database_Config_ASCEND">
+			<db:sql ><![CDATA[SELECT PriceDt
+      ,s.Code as Site
+      ,s.LongDescr as SiteDescr
+      ,MasterProdID
+      ,bi.Code as Product
+	  ,bi.Descr as ProductDescr
+      ,sdt.TaxID
+      ,t.Code as TaxCode
+      ,t.Descr as TaxDescr
+      ,sdt.TaxRate
+      ,CalcType
+	  ,tt.Code as TaxType
+      ,sdt.CostlabelID
+      ,cl.Code as Code
+	  ,tot.TaxID as TaxONTaxID
+	  ,t.Descr
+      ,t.CalcMethod
+      ,tot.SubjectToTaxID    
+FROM Ascend.DBO.DBSiteDailyTax sdt (nolock)
+	join Ascend.DBO.INSite s (nolock) on (sdt.MasterSiteID = s.SiteID)
+	join Ascend.DBO.BillingItem bi (nolock) on (MasterProdID = bi.BillingItemID)
+	join Ascend.DBO.StateProv st (nolock) on s.StateProvID = st.ID
+	join Ascend.DBO.Tax t (nolock) on  sdt.Taxid = t.ID
+	Left outer Join Ascend.DBO.TaxOnTax tot ON tot.SubjectToTaxID = t.ID
+	join Ascend.dbo.TaxType tt (nolock) on t.TaxTypeID = tt.TaxTypeID
+	left outer join Ascend.DBO.CostLabel cl (nolock) on (sdt.CostlabelID = cl.CostlabelID)	
+where s.CompanyID in ('02')	
+	and PriceDt = cast(getdate() as date)
+	and bi.Code = '020'
+order by s.Code]]></db:sql>
+		</db:select>
+		<choice doc:name="Choice" doc:id="2adc0d0b-fb77-4ccd-8398-2cc485194b1e" >
+			<when expression="#[sizeOf(payload) &gt; 0 and vars.apiResource =='truckStopTax']">
+				<logger level="INFO" doc:name="Logger" doc:id="6c11655f-2ec6-4e6a-b2b8-4085ff7a8d87" message='Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], Records available, payload size:"#[sizeOf(payload)]"'/>
+				<ee:transform doc:name="Transform Message" doc:id="5665dbaa-d0ef-4459-a0db-ad7aa6f4dd44" >
+					<ee:message >
+					</ee:message>
+					<ee:variables >
+						<ee:set-variable variableName="taxRateMap" ><![CDATA[%dw 2.0
+output application/java  
+---
+{
+  (payload map (row, index) -> {
+    ((row.TaxID)) : row.TaxRate
+  })
+}]]></ee:set-variable>
+					</ee:variables>
+				</ee:transform>
+				<ee:transform doc:name="Transform Message" doc:id="22bacf6e-6343-4485-9c83-6df900b20cd4" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+  response: (payload groupBy $.Site pluck (siteDetails, siteId) -> {
+    truckstopId: siteDetails[0].Site,
+    truckstopDescription: siteDetails[0].SiteDescr,
+    tax: (siteDetails groupBy $.TaxID pluck (siteTaxDtls, taxId) -> {
+      taxId: siteTaxDtls[0].TaxID,
+      subjectTotaxId: siteTaxDtls filter $.CalcType == "P" map (tax, indexval) -> {
+        taxId: tax.TaxONTaxID,
+        taxRate: 
+          if ( vars.taxRateMap[tax.TaxONTaxID] != null)
+            vars.taxRateMap[tax.TaxONTaxID]
+          else
+            0
+      },
+      taxRate: siteTaxDtls[0].TaxRate,
+      taxDescription: siteTaxDtls[0].TaxDescr,
+      calculationMethod: siteTaxDtls[0].CalcType,
+      taxType: siteTaxDtls[0].TaxType,
+      taxCode: siteTaxDtls[0].Code
+    })
+  })
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</when>
+			<otherwise >
+				<logger level="INFO" doc:name="Logger" doc:id="2e3b39bf-9977-4337-b18e-dcb6cfd5cd72" message="Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], No records available"/>
+				<ee:transform doc:name="Transform Message" doc:id="1cb873b2-4a9e-48ac-8c6a-b8961dd691cc" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	response:{
+		tax: {}
+	}
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+    </flow>
+    <flow name="get:\truckstop:pfj-sales-pathway-s-config">
+        <logger level="INFO" doc:name="Logger" doc:id="80c66dda-52e3-427b-beb8-65b188dfa8a5" message='callerId:"#[vars.incoming.caller_id]",#[vars.incoming.method] /#[vars.incoming.path], start-TruckStop API service  invoked'/>
+		<set-variable value="#['truckStop_All']" doc:name="apiResource" doc:id="16c55015-bc63-4a79-924c-729c01ec7eef" variableName="apiResource"/>
+		<db:select doc:name="Ascend" doc:id="d28a44e5-d0e6-479c-851d-8995b1ea5db5" config-ref="Database_Config_ASCEND">
+			<db:sql ><![CDATA[select distinct
+             s.Code as TruckStopID
+             , s.LongDescr as TruckStopName                                               
+                      , s.Addr1, c.Code as City, sp.Code as State, ctry.Code as Country, s.Zip, s.PrimaryPhone, s.PrimaryFax
+                     , rc.RackID, rc.RackCity, rc.RackState
+                     , so.Descr as SiteOwnerDescription
+                     , a.Rate as FreightRate
+from Ascend.dbo.INSite s
+inner join Ascend.dbo.DBPriceImportSiteXref sx on sx.INSiteID = s.SiteID
+inner join Ascend.pilot.PriceIndexRackCity rc on rc.RackID = sx.ImportedSite 
+inner join Ascend.dbo.PriceIndex x on rc.PriceIndexID = x.PriceIndexID and sx.FormatID = x.FormatID
+inner join Ascend.dbo.DBStationSite ss
+       on s.SiteID = ss.StationID
+inner join Ascend.dbo.DBSiteOwner so 
+       on ss.SiteOwnerID = so.DBSiteOwnerID
+Inner Join Ascend.dbo.City c on s.CityID = c.ID
+Inner Join Ascend.dbo.StateProv sp on sp.ID = c.StateID
+Inner Join Ascend.dbo.Country ctry on sp.CountryID = ctry.ID
+left outer join Ascend.dbo.DBSiteAddOns a
+    on a.SiteID = s.SiteID
+       and a.AddOnType = 'F'
+       and getdate() between a.EffectiveDate and a.Enddate
+       and a.MasterProdID is null
+left outer join Ascend.dbo.INSiteSiteGroup ssg 
+       on s.SiteID = ssg.SiteID
+left outer join Ascend.dbo.INSiteGroup sg 
+       on ssg.SiteGroupID = sg.SiteGroupID
+where 
+        s.CompanyID  = '02' ---US Direct Bill Only
+       and so.Descr not in ('Licensee')  ---no licensees
+       and s.Inactive = 'N' --active sites only
+       and ISNULL(sg.LongDescr, 'Null_Resolve') Not like 'Mr. Fuel%' --no Mr Fuel
+       and a.Rate IS NOT NULL
+AND RackID in (select Max(rc.RackID)
+from Ascend.pilot.PriceIndexRackCity rc
+inner join Ascend.dbo.PriceIndex x on rc.PriceIndexID = x.PriceIndexID
+inner join Ascend.dbo.DBPriceImportSiteXref sx on rc.RackID = sx.ImportedSite
+inner join Ascend.dbo.INSite s on sx.INSiteID = s.SiteID
+where x.Code = 'OPIS Contract Avg.'
+Group By s.SiteID)]]></db:sql>
+		</db:select>
+		<choice doc:name="Choice" doc:id="776b27dc-ebb0-4689-87a2-b942576e720c" >
+			<when expression="#[sizeOf(payload)&gt; 0 and vars.apiResource =='truckStop_All']">
+				<logger level="INFO" doc:name="Logger" doc:id="d1c5c483-35b4-4341-949a-57f9cd37df34" message='Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], Records available, payload size:"#[sizeOf(payload)]"'/>
+				<ee:transform doc:name="Transform Message" doc:id="d5d9127c-ce19-4c21-8de8-fa9f50167b93" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json  
+---
+payload  map (row, indexOfRow) -> {
+	
+  truckStopID: row.TruckStopID as String default null,
+  truckStopName: row.TruckStopName as String default null,
+  address: row.Addr1 as String default null,
+  city: row.City as String default null,
+  state: row.State as String default null,
+  country: row.Country as String default null,
+  chain: row.SiteOwnerDescription as String default null,
+  zip: row.Zip as String default null,
+  primaryPhone: row.PrimaryPhone as String default null,
+  primaryFax: row.PrimaryFax as String default null,
+  opisCity: row.RackCity as String default null,
+  opisState: row.RackState as String default null,
+  freightRate: row.FreightRate as Number {format: "#.#######"}
+  
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</when>
+			<otherwise >
+				<logger level="INFO" doc:name="Logger" doc:id="3f6ab0bd-0feb-4f07-9619-bbd440363956" message="Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], No records available" />
+				<ee:transform doc:name="Transform Message" doc:id="ae8d3cde-392a-4cb9-a443-b78bc8439068" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json  
+---
+[
+  {}
+]]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+    </flow>
+    <flow name="get:\truckstop\costplus\(standardAccountId):pfj-sales-pathway-s-config">
+		<set-variable value="#['CostPlus']" doc:name="apiResource" doc:id="4e69fe6f-7138-4d21-a493-faf80cf5c81f" variableName="apiResource"/>
+		<ee:transform doc:name="Transform Message" doc:id="c5b65a75-9757-481d-9434-06332e33bf9e" >
+			<ee:message >
+			</ee:message>
+			<ee:variables >
+				<ee:set-variable variableName="requestAttributes" ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	standardAccountId : attributes.uriParams.'standardAccountId',
+	startDate : attributes.queryParams.startDate as String {format: "yyyy-MM-dd"},
+	endDate : attributes.queryParams.endDate as String {format: "yyyy-MM-dd"},
+}]]></ee:set-variable>
+			</ee:variables>
+		</ee:transform>
+		<db:select doc:name="Ascend" doc:id="33b2949b-27c7-4c36-bdbe-3bdd8efd4dfc" config-ref="Database_Config_ASCEND">
+			<db:sql ><![CDATA[Select StandardAcctID, 
+             StandardAcctNo, 
+             SiteCode, 
+             AddOn1_Rate as RetailFee, 
+             Total as CostPlusAmount,
+             EffectiveDate 
+from Ascend.dbo.PrintTableCostPlusPricing 
+where 
+      
+       StandardAcctID = :StandardAccountId
+	   and EffectiveDate between :StartDate and :EndDate
+       and ProductCode= '020'
+
+union
+
+Select StandardAcctID, 
+             StandardAcctNo, 
+             SiteCode, 
+             AddOn1_Rate as RetailFee, 
+             Total as CostPlusAmount,
+             EffectiveDate 
+from Ascend.dbo.PrintTableCostPlusPricingHistory 
+where 
+       StandardAcctID = :StandardAccountId
+       and EffectiveDate between :StartDate and :EndDate
+       and ProductCode= '020'
+
+union
+
+Select StandardAcctID, 
+             StandardAcctNo, 
+             SiteCode, 
+             AddOn1_Rate as RetailFee, 
+             Total as CostPlusAmount,
+             EffectiveDate 
+from AscendArchive.dbo.PrintTableCostPlusPricingHistory_Archive 
+where 
+           StandardAcctID = :StandardAccountId
+       and EffectiveDate between :StartDate and :EndDate
+       and ProductCode= '020'
+]]></db:sql>
+			<db:input-parameters ><![CDATA[#[{'StandardAccountId': vars.requestAttributes.standardAccountId,'StartDate': vars.requestAttributes.startDate,'EndDate': vars.requestAttributes.endDate }]]]></db:input-parameters>
+		</db:select>
+		<db:select doc:name="Ascend" doc:id="bcaaab46-2f1b-4af8-8cdc-f8a88bf7caad" config-ref="Database_Config_ASCEND" target="retailPrice">
+			<db:sql ><![CDATA[select * from Ascend.Pilot.GetDiesel2PricingPerSite(GETDATE()) ]]></db:sql>
+		</db:select>
+		<choice doc:name="Choice" doc:id="2d6192d7-f6b6-4009-82a8-6a28d928de19" >
+			<when expression="#[sizeOf(payload) &gt; 0 and vars.apiResource == 'CostPlus']">
+				<logger level="INFO" doc:name="Logger" doc:id="8c567f60-390e-4f5b-bbc3-3793a205c1ee" message='Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], Records available, payload size:"#[sizeOf(payload)]"'/>
+				<ee:transform doc:name="Transform Message" doc:id="241b383b-483e-4079-9db3-f849bd11c493" >
+					<ee:message >
+					</ee:message>
+					<ee:variables >
+						<ee:set-variable variableName="retailPriceMap" ><![CDATA[%dw 2.0
+output application/java  
+---
+{
+  (vars.retailPrice map (row, index) -> {
+    ((row.Sitecode)) : row.RetailPrice
+  })
+}]]></ee:set-variable>
+					</ee:variables>
+				</ee:transform>
+				<ee:transform doc:name="Transform Message" doc:id="6295cf5c-9f5e-4009-b8c5-d46c68e22b33" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json  
+---
+{
+  response: {
+    (payload filter  $.StandardAcctID != null groupBy $.StandardAcctID pluck (standDetails, standId) -> {
+      costPlusData: (standDetails groupBy $.SiteCode pluck (truckdetails, truckid) -> {
+        costPlus: (truckdetails map {
+          standardAccountId: $.StandardAcctID,
+          standardAccountNo: $.StandardAcctNo,
+          siteCode: $.SiteCode,
+          retailFee: $.RetailFee,
+          costPlusAmount: $.CostPlusAmount,
+          effectiveDate: $.EffectiveDate,
+          retailPrice: vars.retailPriceMap[$.SiteCode as Number],
+          finalPrice: 
+            if (((vars.retailPriceMap[$.SiteCode] != null and vars.retailPriceMap[$.SiteCode] as Number >= $.CostPlusAmount as Number) or $.StandardAcctNo == "999997"))
+              $.CostPlusAmount
+            else if ( vars.retailPriceMap[$.SiteCode] != null)
+              vars.retailPriceMap[$.SiteCode]
+            else
+              $.CostPlusAmount
+        })
+      })
+    })
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+				<ee:transform doc:name="Transform Message" doc:id="11d5d684-03e9-4500-ac31-f42e5f549a43" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+  response: {
+    costPlusData: {
+      costPlus: flatten(payload.response.costPlusData.costPlus)
+    }
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</when>
+			<otherwise >
+				<logger level="INFO" doc:name="Logger" doc:id="06ee78da-6f10-45c7-8ccf-e531883f6c50" message="Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], No records available"/>
+				<ee:transform doc:name="Transform Message" doc:id="c28a4667-559c-4a28-8494-673e869f7b1b" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json 
+---
+{
+  response: {
+    costPlusData: {
+      costPlus: []
+    }
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+    </flow>
+    <flow name="get:\truckstop\gallons\(standardAccountId):pfj-sales-pathway-s-config">
+        <logger level="INFO" doc:name="Logger" doc:id="a48fde62-0906-4f01-bd7f-28c48b1305d0" />
+		<set-variable value="#[attributes.uriParams.'standardAccountId']" doc:name="standardAccountId" doc:id="350922cf-9505-4aa8-8947-3a00c7dfa222" variableName="standardAccountId"/>
+		<set-variable value="#['Gallons']" doc:name="apiResource" doc:id="d102c745-39b4-4af4-b194-a38c483417d7" variableName="apiResource"/>
+		<scatter-gather doc:name="Scatter-Gather" doc:id="a9f59eea-4627-42da-afc4-9b0cb453839e" >
+			<route >
+				<db:select doc:name="FuelPact_DB" doc:id="1eedfcd6-ffb6-4345-9f64-596a0ecd70a6" config-ref="Database_Config_FUELPACT">
+					<db:sql ><![CDATA[SELECT th.StandardAccountID,
+			 td.ProductExternal,
+			 th.PLMonthYear,
+			 th.SiteCode AS Code,
+			 td.Quantity AS TotalQuantity   
+       FROM FuelPact.[dbo].[BillingService] bs WITH(NOLOCK)
+       inner join FuelPact.[dbo].[DataSource] ds WITH(NOLOCK)
+             ON ds.[BillingServiceID] = bs.[BillingServiceID]
+       inner join FuelPact.[dbo].[BatchFile] bf WITH(NOLOCK)
+             ON bf.[DataSourceID] = ds.[DataSourceID]
+       inner join FuelPact.[dbo].[TransactionHeader] th WITH(NOLOCK)
+             ON th.[BatchFileID] = bf.[BatchFileID]
+       inner join FuelPact.[dbo].[TransactionDetail] td WITH(NOLOCK)
+             ON td.[TransactionHeaderID] = th.[TransactionHeaderID]
+       	WHERE td.BillingItemCode in ('020', '033') And PLMonthYear=CONVERT(VARCHAR(7), DateAdd(Month, DateDiff(Month, 1, GETDATE()), -1), 111) And th.StandardAccountID = :StandardAccountID]]></db:sql>
+					<db:input-parameters ><![CDATA[#[{ StandardAccountID : vars.standardAccountID }]]]></db:input-parameters>
+				</db:select>
+			</route>
+			<route >
+				<db:select doc:name="Ascend_DB" doc:id="2c8efef9-f0f8-46c8-ac0b-266537206060" config-ref="Database_Config_ASCEND">
+					<db:sql ><![CDATA[select  sa.StandardAcctID as StandardAccountID,
+                     sa.StandardAcctNo,               
+                     b.Descr as ProductExternal,
+                     h.PLMonthYear,
+                     s.Code AS Code,
+                     d.Quantity AS TotalQuantity                        
+from Ascend.dbo.DBTransactionHdr h
+inner join Ascend.dbo.DBTransactionDetail d on h.SysTrxNo = d.SysTrxNo
+inner join Ascend.dbo.BillingItem b on d.MasterProdID = b.BillingItemID
+inner join Ascend.dbo.INSite s on h.MasterSiteId_Stn = s.SiteID
+inner join Ascend.dbo.ARShipto sh on h.ARShipToID = sh.ShiptoID
+inner join Ascend.dbo.ARStandardAcct sa on sh.StandardAcctId = sa.StandardAcctID
+Where Descr in ('Reefer', 'Truck Diesel')
+And PLMonthYear=CONVERT(VARCHAR(7), DateAdd(Month, DateDiff(Month, 1, GETDATE()), -1), 111) And sa.StandardAcctID = :StandardAccountID
+Group By sa.StandardAcctID,sa.StandardAcctNo, b.Descr, h.PLMonthYear, s.Code , d.Quantity
+UNION
+select  sac.StandardAcctID as StandardAccountID,
+                     sac.StandardAcctNo,               
+                     bi.Descr as ProductExternal,
+                     hth.PLMonthYear,
+                     si.Code AS Code,
+                     dh.Quantity AS TotalQuantity   
+from Ascend.dbo.DBTransactionHdrHistory  hth
+inner join Ascend.dbo.DBTransactionDetailHistory  dh on hth.SysTrxNo = dh.SysTrxNo
+inner join Ascend.dbo.BillingItem bi on dh.MasterProdID = bi.BillingItemID
+inner join Ascend.dbo.INSite si on hth.MasterSiteId_Stn = si.SiteID
+inner join Ascend.dbo.ARShipto sh on hth.ARShipToID = sh.ShiptoID
+inner join Ascend.dbo.ARStandardAcct sac on sh.StandardAcctId = sac.StandardAcctID
+Where Descr in ('Reefer', 'Truck Diesel')
+And PLMonthYear=CONVERT(VARCHAR(7), DateAdd(Month, DateDiff(Month, 1, GETDATE()), -1), 111) And sac.StandardAcctID = :StandardAccountID
+Group By sac.StandardAcctID,sac.StandardAcctNo, bi.Descr, hth.PLMonthYear, si.Code,dh.Quantity]]></db:sql>
+					<db:input-parameters ><![CDATA[#[{ StandardAccountID : vars.standardAccountID }]]]></db:input-parameters>
+				</db:select>
+			</route>
+		</scatter-gather>
+		<choice doc:name="Choice" doc:id="89259762-ade6-429f-a21b-04114ee259bb" >
+			<when expression="#[((sizeOf(payload[0].payload) &gt; 0) or (sizeOf(payload[1].payload) &gt; 0)) and vars.apiResource =='Gallons']">
+				<logger level="INFO" doc:name="Logger" doc:id="85373ba4-6e8c-4bae-8c74-bd389b0c4569" message='Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], Records available, FuelPact payload size:"#[sizeOf(payload[0].payload)]",Ascend payload size:"#[sizeOf(payload[1].payload)]"'/>
+				<ee:transform doc:name="Transform Message" doc:id="4a592b47-9002-41b9-b510-a4c095b760f5" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+fun splitdate(name) =
+  name splitBy "/"
+---
+{
+  response: {
+    gallonsData: (payload[0].payload ++ payload[1].payload filter  $.StandardAccountID != null groupBy $.StandardAccountID pluck (standDetails, standId) -> {
+      gallons: (standDetails groupBy $.Code pluck (truckdetails, truckid) -> {
+        (truckdetails groupBy $.PLMonthYear pluck (date, index) -> {
+          standardAccountId: date[0].StandardAccountID,
+          truckStopId: date[0].Code,
+          month: splitdate(date[0].PLMonthYear)[1],
+          year: splitdate(date[0].PLMonthYear)[0],
+          gallons: sum(date.TotalQuantity)
+        })
+      })
+    })[0]
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</when>
+			<otherwise >
+				<logger level="INFO" doc:name="Logger" doc:id="e5a14126-a940-4f73-abea-acb7e656c1de" message="Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], No records available in fuelpact or ascend"/>
+				<ee:transform doc:name="Transform Message" doc:id="ebc76f8b-4114-4640-98b7-e9c0f0ffe12e" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json  
+---
+{
+  response: {
+    gallonsData: {
+      gallons: []
+    }
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+		<logger level="INFO" doc:name="Logger" doc:id="13166723-aa87-41cb-8714-a01682561b65" />
+    </flow>
+    <flow name="get:\truckstop\retailfee\(standardAccountId):pfj-sales-pathway-s-config">
+        <logger level="INFO" doc:name="Logger" doc:id="fc3b87b9-434e-4c1c-8eb3-6377051d32bc" />
+		<set-variable value="#[attributes.uriParams.'standardAccountId']" doc:name="standardAccountId" doc:id="9bee0a39-271d-4e4a-a1ef-abc7f2d9fd15" variableName="standardAccountId"/>
+		<set-variable value="#['RetailFee']" doc:name="apiResource" doc:id="b2360018-be6b-4722-87bc-f983264bb693" variableName="apiResource"/>
+		<db:select doc:name="Ascend" doc:id="edff4ba7-f991-4766-abe4-db070be99107" config-ref="Database_Config_ASCEND">
+			<db:sql ><![CDATA[select StandardAcctID, StandardAcctNo, SiteCode, AddOn1_Type as CostType, AddOn1_Rate as Rate from Ascend.dbo.PrintTableCostPlusPricing where StandardAcctID = :standardAccountID and EffectiveDate= cast(getdate() as date)  and ProductCode=020]]></db:sql>
+			<db:input-parameters ><![CDATA[#[{ standardAccountID : vars.standardAccountID }]]]></db:input-parameters>
+		</db:select>
+		<choice doc:name="Choice" doc:id="10261adb-ea52-4daf-8f7e-8469bdf4ce71" >
+			<when expression="#[sizeOf(payload) &gt; 0 and vars.apiResource == 'RetailFee']">
+				<logger level="INFO" doc:name="Logger" doc:id="c4c13a49-65fb-4724-8660-5890b94150a2" message='Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], Records available, payload size:"#[sizeOf(payload)]"'/>
+				<ee:transform doc:name="Transform Message" doc:id="c7c5fea4-9fff-4e84-8f6f-7885f31d7ef0" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json  
+---
+{
+  response: {
+    retailFeeData: (payload groupBy $.StandardAcctID pluck (standDetails, standId) -> {
+      retailFee: (standDetails groupBy $.SiteCode pluck (truckdetails, truckid) -> {
+        standardAccountID: truckdetails[0].StandardAcctID,
+        truckStopId: truckdetails[0].SiteCode,
+        costType: truckdetails[0].CostType,
+        rate: truckdetails[0].Rate
+      })
+    })[0]
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</when>
+			<otherwise >
+				<logger level="INFO" doc:name="Logger" doc:id="dcf4ec1f-8ca5-4874-a541-f7b4553f0567" message="Request - (#[vars.incoming.caller_id]) ${api.version} #[vars.incoming.method] /#[vars.incoming.path], No records available"/>
+				<ee:transform doc:name="Transform Message" doc:id="2b5002d0-6751-4d77-8eb3-7fdbcb7f0fb0" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+  response: {
+    retailFeeData: {
+      retailFee: [
+      ]
+    }
+  }
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+    </flow>
+
+
+	<flow name="get:\heartbeat" doc:id="79d2536f-3617-4657-8f31-2c7b2bbddde3">
+		<set-payload value="#[%dw 2.0
+output application/json
+---
+{
+	name: p('api.name'),
+	description: p('api.description'),
+	version: p('api.version')
+}]" doc:name="Set Payload" doc:id="140f46bb-080a-4958-91f8-11ae3e8f0141" />
+	</flow>
+</mule>

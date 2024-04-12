@@ -1,0 +1,498 @@
+{
+    "response": [
+        {
+            "costplusData": [
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "817",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8084,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8084
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "844",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7718,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7718
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "862",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8646,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8646
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "822",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8165,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8165
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "833",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8772,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8772
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "813",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8227,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8227
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "461",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.858,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.858
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "806",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.9168,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.9168
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "847",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.871,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.871
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "869",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8233,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8233
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "829",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.9046,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.9046
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "798",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 1.0014,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 1.0014
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "802",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 1.0009,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 1.0009
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "825",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8613,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8613
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "866",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8907,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8907
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "821",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8427,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8427
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "865",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8673,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8673
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "837",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8938,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8938
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "816",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.788,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.788
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "848",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8205,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8205
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "805",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8737,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8737
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "832",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 1.0009,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 1.0009
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "861",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8906,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8906
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "801",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8626,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8626
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "850",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.788,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.788
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "792",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8383,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8383
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "826",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8444,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8444
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "860",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8675,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8675
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "808",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.9259,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.9259
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "845",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8091,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8091
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "820",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8189,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8189
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "788",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7639,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7639
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "815",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8058,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8058
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "785",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8193,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8193
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "864",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7576,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7576
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "799",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8899,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8899
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "463",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8571,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8571
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "819",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8492,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8492
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "842",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7512,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7512
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "795",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7886,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7886
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "853",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.9115,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.9115
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "827",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8876,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8876
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "809",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.9274,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.9274
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "804",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7634,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7634
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "810",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.9299,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.9299
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "791",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7554,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7554
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "789",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8593,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8593
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "790",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.8716,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.8716
+                },
+                {
+                    "standardAccountId": 51943,
+                    "standardAccountNo": "001006",
+                    "siteCode": "811",
+                    "retailFee": -0.025,
+                    "costPlusAmount": 0.7567,
+                    "effectiveDate": "2017-06-24T00:00:00",
+                    "retailPrice": null,
+                    "finalPrice": 0.7567
+                }
+            ]
+        }
+    ]
+}

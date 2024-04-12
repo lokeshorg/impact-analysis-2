@@ -1,0 +1,11 @@
+{
+  "minMuleVersion": "4.4.0",
+  "secureProperties": [
+      "anypoint.platform.client_secret",
+      "https.keystore.password",
+      "http.keystore.password",
+      "runtime.externalAuth.clientSecret",
+      "ascend.password",
+      "fuelpact.password"
+  ]
+}

@@ -1,0 +1,4575 @@
+{
+	"response": [{
+			"retailData": [{
+					"standardAccountID": "66071",
+					"truckStopId": "507",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "4598",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "664",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "925",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "519",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "717",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "920",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "706",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "657",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "714",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "731",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "932",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "133",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "734",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "542",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "705",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				},
+				{
+					"standardAccountID": "66071",
+					"truckStopId": "669",
+					"costType": "Pump Fee",
+					"rate": "0.05"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19491",
+					"truckStopId": "798",
+					"costType": "Pump Fee",
+					"rate": "-0.025"
+				},
+				{
+					"standardAccountID": "19491",
+					"truckStopId": "786",
+					"costType": "Pump Fee",
+					"rate": "-0.025"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19453",
+					"truckStopId": "830",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19453",
+					"truckStopId": "827",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19453",
+					"truckStopId": "820",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19453",
+					"truckStopId": "844",
+					"costType": "Pump Fee",
+					"rate": "0"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19436",
+					"truckStopId": "817",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19436",
+					"truckStopId": "805",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19436",
+					"truckStopId": "808",
+					"costType": "Pump Fee",
+					"rate": "0"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19441",
+					"truckStopId": "848",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19441",
+					"truckStopId": "829",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19441",
+					"truckStopId": "792",
+					"costType": "Pump Fee",
+					"rate": "0"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19435",
+					"truckStopId": "807",
+					"costType": "Pump Fee",
+					"rate": "-0.01"
+				},
+				{
+					"standardAccountID": "19435",
+					"truckStopId": "863",
+					"costType": "Pump Fee",
+					"rate": "-0.01"
+				},
+				{
+					"standardAccountID": "19435",
+					"truckStopId": "862",
+					"costType": "Pump Fee",
+					"rate": "-0.01"
+				},
+				{
+					"standardAccountID": "19435",
+					"truckStopId": "819",
+					"costType": "Pump Fee",
+					"rate": "-0.01"
+				}
+			]
+		},
+		{
+			"retailData": [{
+				"standardAccountID": "19454",
+				"truckStopId": "793",
+				"costType": "Pump Fee",
+				"rate": "0"
+			}]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19469",
+					"truckStopId": "813",
+					"costType": "Pump Fee",
+					"rate": "-0.035"
+				},
+				{
+					"standardAccountID": "19469",
+					"truckStopId": "801",
+					"costType": "Pump Fee",
+					"rate": "-0.035"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "56397",
+					"truckStopId": "710",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "515",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "7971",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4651",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "619",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "507",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "381",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "874",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "455",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4598",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "624",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "67",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "388",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "310",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "444",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "713",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "302",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "335",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "885",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "735",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "664",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8637",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "458",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "147",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "6955",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "686",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "616",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "589",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "544",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "436",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "697",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "777",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "12",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "541",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "66",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "89",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "51",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "963",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "768",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "925",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "608",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "638",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "689",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "73",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "411",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "620",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "307",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "678",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "519",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1086",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "164",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "425",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "881",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "526",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "649",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "675",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "447",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4561",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "324",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "332",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "313",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "918",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "724",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "362",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4567",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "265",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4619",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "732",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "23",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "433",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "62",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "552",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "321",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "580",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "537",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "896",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "343",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "404",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "523",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "88",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "421",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "702",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1003",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1001",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "77",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "415",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "40",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "770",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "6996",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "534",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "593",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "674",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "318",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "378",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1082",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "373",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "762",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1042",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1006",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "469",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "758",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "721",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "604",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "284",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4578",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "504",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "475",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "931",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "914",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "716",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1020",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1012",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4599",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "743",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1080",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "717",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "481",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "15",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "549",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "920",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1027",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "486",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "11",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "892",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "396",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "90",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "556",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "9",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "141",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8642",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1126",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "132",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "746",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "706",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "44",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "236",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "385",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "7996",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "904",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4557",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "908",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1118",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "650",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "497",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "966",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "492",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "346",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "613",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "280",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "739",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "287",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8604",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "668",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "454",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "627",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "692",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "540",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "407",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "470",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "298",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "399",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "773",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "392",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "56",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "329",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "727",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "512",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "602",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "393",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "163",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "26",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "224",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1057",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1017",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "303",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "134",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "884",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "50",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "895",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "460",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "390",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "750",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "639",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "617",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "174",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "429",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "37",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "907",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "68",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "242",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "623",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "61",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "491",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "765",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "356",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "646",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "336",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "736",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "328",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "13",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "657",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "509",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "46",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "206",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "255",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "728",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "516",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "595",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "296",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "437",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "606",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1028",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "538",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "714",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "441",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8658",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "24",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "253",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "209",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "888",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "459",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "661",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "899",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "94",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "448",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "609",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "917",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "970",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "35",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "903",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "233",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "306",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "754",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "16",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "725",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4597",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "772",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "731",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "192",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "495",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "79",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "398",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "279",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "553",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "761",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "784",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "341",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "152",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "781",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "583",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "231",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "367",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "599",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "873",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "350",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "72",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "268",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "387",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "500",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8624",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "274",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1041",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "330",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "199",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "900",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8601",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "665",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "634",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "159",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "631",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1046",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "353",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "522",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "932",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "144",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "87",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "913",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "703",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "742",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "550",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "718",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "890",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "237",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "256",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "340",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "317",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "196",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "375",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "720",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "48",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "281",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "601",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1063",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "403",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1023",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "476",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "422",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "572",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "21",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4576",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "7983",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "533",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "498",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4566",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "76",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "909",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "372",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "967",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1013",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "270",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "347",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "511",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "559",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "530",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4562",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "628",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "747",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1002",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "592",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "473",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "408",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "7976",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "43",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "707",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1070",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1030",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "339",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "889",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1577",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "508",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4556",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "729",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "653",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "65",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "910",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "612",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1096",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "71",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "642",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "57",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "605",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "924",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "213",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "285",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8630",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "108",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "505",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "259",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "691",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1024",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "445",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "472",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "297",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "434",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "219",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "428",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "360",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "586",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "775",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "106",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "234",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "6978",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1058",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "252",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "645",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8638",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "137",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "579",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "431",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "923",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "510",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "898",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "568",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "676",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "82",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "876",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "636",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "49",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "596",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "6",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "413",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "557",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "532",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "241",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "36",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "968",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4559",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "386",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "906",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "490",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "300",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "348",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "737",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "883",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "337",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "39",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "656",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "286",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "289",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "140",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1117",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8612",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "409",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "759",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4656",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "912",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "17",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "180",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "267",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "695",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "394",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "290",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "60",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "658",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "554",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "208",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "698",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "14",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "133",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "47",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "647",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "536",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "391",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "704",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "687",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "983",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "309",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "902",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "102",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "31",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8616",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "753",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "96",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "69",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "622",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4596",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "503",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "442",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "278",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "764",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "494",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "701",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "934",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "151",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "887",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "245",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "662",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "95",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "625",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "190",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "322",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "405",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "58",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "368",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "145",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "644",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "477",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "916",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4649",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "741",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "483",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "257",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "439",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "879",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "64",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "546",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "571",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "730",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "53",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "539",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "694",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "525",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "249",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "528",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "683",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "75",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "6990",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "517",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "195",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8605",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "467",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "275",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "723",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1051",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "156",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "308",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1047",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "760",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "756",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "666",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "293",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "880",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "109",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4563",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4581",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "630",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "149",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "354",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "690",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "326",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "891",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "430",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "260",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1033",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "365",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "311",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4569",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "488",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1025",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "734",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1014",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "542",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "210",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "965",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "641",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "894",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "575",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "514",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "266",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "2",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "402",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4642",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "712",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1005",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "238",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "672",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "81",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4555",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "652",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "611",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "167",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "271",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "304",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "633",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "416",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "282",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "493",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "198",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "659",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "738",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "338",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "922",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "699",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "871",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "294",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8625",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "685",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "474",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8621",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "482",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1019",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "506",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "531",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "118",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "748",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "171",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "165",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "443",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "374",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "708",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "886",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "663",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "92",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "677",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4560",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "446",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "594",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4584",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "637",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "412",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "520",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4622",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "705",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "901",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "489",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "621",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "363",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "7937",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "261",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "696",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "655",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "438",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "247",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "319",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "258",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "551",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "719",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "154",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "581",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "660",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "30",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "597",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "535",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "688",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "352",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "97",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "331",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "618",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "130",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "179",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "435",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "114",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "875",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "982",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "222",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "432",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1059",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "496",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "882",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "478",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "457",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "524",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "897",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "607",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "590",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "29",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "471",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "41",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "299",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "911",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "485",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "744",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "905",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "240",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "384",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "168",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1550",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4558",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "733",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "763",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "555",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "468",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "547",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "63",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "254",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "684",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "211",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "232",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "722",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "150",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "603",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1054",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1061",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "3",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "369",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1021",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "420",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "614",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "518",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "243",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1026",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "226",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "700",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1015",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1083",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "366",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "893",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "305",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1043",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "91",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "453",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "52",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8628",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "626",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "584",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "406",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "715",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "643",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "316",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "915",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "740",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "380",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "440",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "774",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "610",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "449",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "377",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "424",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "131",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "640",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "726",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "693",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1549",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "200",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "669",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "543",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4568",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "370",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "671",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "28",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "301",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "8603",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "576",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "632",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "513",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "964",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "417",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "157",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "667",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4580",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "4579",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "749",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "752",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "709",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "711",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "529",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "146",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1140",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "1004",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "358",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "682",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "673",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "239",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				},
+				{
+					"standardAccountID": "56397",
+					"truckStopId": "312",
+					"costType": "Pump Fee",
+					"rate": "0.07"
+				}
+			]
+		},
+		{
+			"retailData": [{
+					"standardAccountID": "19434",
+					"truckStopId": "807",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19434",
+					"truckStopId": "866",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19434",
+					"truckStopId": "814",
+					"costType": "Pump Fee",
+					"rate": "0"
+				},
+				{
+					"standardAccountID": "19434",
+					"truckStopId": "819",
+					"costType": "Pump Fee",
+					"rate": "0"
+				}
+			]
+		}
+	]
+
+}

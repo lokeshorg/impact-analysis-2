@@ -1,0 +1,21 @@
+runtime:
+  host:
+    pci:
+      internal: "api.pp.pilotcorp.net"
+      external: "api.pp.pilotflyingj.com"
+    nonPci:
+      internal: "api.cp.pilotcorp.net"
+      external: "api.cp.pilotflyingj.com"
+  envTag: ""
+
+
+#Database Prod properties
+ascend:
+  url: jdbc:sqlserver://KNXASCENDDB.pilotcorp.net:1433
+  username: svcmsPilotQuotingSystem
+  password: ""
+  
+fuelpact:
+  url: jdbc:sqlserver://FUELPACTDB.pilotcorp.net:1433
+  username: svcmsPilotQuotingSystem
+  password: ""

@@ -1,0 +1,16 @@
+runtime:
+  defaultTimeout: "30000" #milliseconds
+
+#Internal Properties
+api:
+  version: "v1"
+  name: "pfj-sales-pathway-s${runtime.envTag}"
+  description: "API for truckstop Ascend data"
+
+https:
+  listener:
+    host: "0.0.0.0"
+    port: "8092"
+    path: "/api/v1/*"
+  keystore:
+    path: "pfjKeystore.jks"    

@@ -1,0 +1,7 @@
+#%RAML 1.0 Trait
+description: Trait to be used by all APIs
+headers: 
+  X-Caller-Id:
+    type: string
+    required: false
+    description: Transaction ID/Corelation ID to trace API calls, can be GUID or unique business identifier
