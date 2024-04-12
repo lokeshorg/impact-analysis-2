@@ -14,7 +14,7 @@
 	<artifactId>pfj-sales-pathway-s</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
-	<name>pfj-sales-pathway-s</name>
+	<name>pfj-sales-pathway-s-test</name>
 	<description>'pfj-sales-pathway-s' Ascend API for truckstop having gallons,costplus and tax data.</description>
 	<properties>
 		
