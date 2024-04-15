@@ -6,7 +6,7 @@
     <artifactId>mulebom</artifactId>
     <version>1.0.0</version>
 	<packaging>pom</packaging>
-	<name>mule pom</name>
+	<name>pfj-sales-pathway-s-test</name>
     <url>http://maven.apache.org</url>
 	
 	<properties>
